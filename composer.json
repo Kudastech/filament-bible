@@ -1,0 +1,36 @@
+{
+    "name": "kudastech/filament-bible",
+    "description": "Filament package to fetch from the Holy Bible",
+    "keywords": ["Kudastech","Filament-Bible", "Laravel", "Filament"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kudastech\\Bible\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kudafoke isaiah",
+            "email": "kudastech@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1 || ^8.2 || ^8.3",
+        "filament/filament": "^3.0",
+        "illuminate/support": "^9.0 || ^10.0 || ^11.0 || ^12.0",
+        "spatie/laravel-package-tools": "^1.14"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kudastech\\Bible\\BibleServiceProvider"
+            ],
+            "aliases": {
+                "Bible": "Kudastech\\Bible\\Facades\\Bible"
+            }
+        }
+    }
+}
