@@ -121,7 +121,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Acknowledgements
 
 The KJV English Bible JSON files were sourced from [here](https://github.com/aruljohn/Bible-kjv).
-
-## License
-
-The MIT License (MIT). Please see the [License File](LICENSE.md) for more information.
